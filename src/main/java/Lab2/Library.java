@@ -27,6 +27,7 @@ public class Library {
 		MobileComputer m = new MobileComputer();
 		c.charge(p);
 		c.charge(m);
+		return ;
 	}
 	
     public boolean someLibraryMethod() {
