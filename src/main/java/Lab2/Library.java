@@ -27,7 +27,7 @@ public class Library {
 		MobileComputer m = new MobileComputer();
 		c.charge(p);
 		c.charge(m);
-		return ;
+		return ; // don't have a return may cause runtime error
 	}
 	
     public boolean someLibraryMethod() {
